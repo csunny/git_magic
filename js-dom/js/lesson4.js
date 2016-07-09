@@ -16,3 +16,7 @@ function countBodyChild(){
     console.log(body_elcment.childNodes.length);
 }
 window.onload = countBodyChild();
+
+function popUp(winUrl){
+    window.open(winUrl, "popup", "width=640, height=480");
+}
