@@ -1,8 +1,6 @@
 /**
  * Created by think on 2016/7/9.
  */
-addLoadEvent(prepareGallery);
-addLoadEvent(prepareplaceholder);
 
 function addLoadEvent(func) {
     var oldonload = window.onload;
@@ -18,7 +16,7 @@ function prepareplaceholder() {
     if(!document.getElementById("imggallery")) return false;
     var placeholder = document.createElement("img");
     placeholder.setAttribute("id", "placeholder");
-    placeholder.setAttribute("src", "img/placeholder.git");
+    placeholder.setAttribute("src", "img/placeholder.gif");
     placeholder.setAttribute("alt", "my image gallery");
     var description = document.createElement("p");
     description.setAttribute("id", "description");
@@ -56,7 +54,6 @@ function insertAfter(newElement, targetElement) {
     }
 }
 
-window.onload = prepareGallery;
 function prepareGallery() {
     if(!document.getElementsByTagName||!document.getElementById||!document.getElementById("imggallery")) return false;
     var gallery = document.getElementById('imggallery');
@@ -68,8 +65,12 @@ function prepareGallery() {
 //        links[i].onkeydown = function(){
 //            return showpic(this);
 //        }
-        // links[i]onkeydown = links[i].onclick;
+        links[i].onkeydown = links[i].onclick;
     }
 }
+
+
+addLoadEvent(prepareplaceholder);
+addLoadEvent(prepareGallery);
 
 
