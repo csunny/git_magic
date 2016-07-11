@@ -1,7 +1,7 @@
 /**
  * Created by think on 2016/7/10.
  */
-function addLoadEvent(){
+function addLoadEvent(func){
     var oldonload = window.onload;
     if(typeof window.onload !='function'){
         window.onload = func;
@@ -33,3 +33,22 @@ function addClass(element, value) {
         element.className = newClassName;
     }
 }
+
+function highlightPage(){
+    if(!document.getElementsByTagName) return false;
+    if(!document.getElementById) return false;
+    if(!document.getElementById) return false;
+    var nav = document.getElementById("navigation");
+//    console.log(nav);
+    var links = nav.getElementsByTagName("a");
+    for(var i=0; i<links.length; i++){
+        var linkurl = links[i].getAttribute("href");
+        var currenturl = window.location.href;
+        if(currenturl.indexOf(linkurl) != -1){
+            links[i].className = 'here';
+            var linktext = links[i].lastChild.nodeValue.toLowerCase();
+            document.body.setAttribute("id", linktext);
+        }
+    }
+}
+addLoadEvent(highlightPage);
