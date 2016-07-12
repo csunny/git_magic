@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/backbone.js"></script>
+    <script type="text/javascript">
+        var _obj = {
+            'title': "task1",
+            'description': 'description'
+        }
+        var ToDoItem = Backbone.Model.extend({
+
+        });
+
+        var toDoItem = new ToDoItem(_obj);
+        console.log(toDoItem);
+        console.log(toDoItem.toJSON());
+        console.log(toDoItem.toJSON().title);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
