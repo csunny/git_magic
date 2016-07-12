@@ -16,9 +16,22 @@
         });
 
         var toDoItem = new ToDoItem(_obj);
-        console.log(toDoItem);
-        console.log(toDoItem.toJSON());
-        console.log(toDoItem.toJSON().title);
+//        console.log(toDoItem);
+//        console.log(toDoItem.toJSON());
+//        console.log(toDoItem.toJSON().title);
+
+        var ToDoItemView = Backbone.View.extend({
+            tagName: 'p',
+            id: 'header',
+
+            render: function () {
+                this.$el.html('<span>magic</span>');
+                return this;
+            }
+        })
+
+        var todoitemview = new ToDoItemView();
+        todoitemview.render().$el.appendTo($('body'));
 
     </script>
 </head>
