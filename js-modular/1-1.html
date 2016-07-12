@@ -192,7 +192,124 @@
         require(['math'], function (math) {
             console.log(math.add(1,1));
         });
+        //模块的加载
+        //假定需要加载的模块跟所写js文件在同一目录，文件名字分别为jquery.js  underscore.js  backbone.js
+        // 我们可以使用require.config（）方法，可以对模块的加载行为进行自定义，require.config（）就写在主模块main.js
 
+        //的头部，参数就是一个对象。这个对象的paths属性指定各个模块的加载路径。
+
+        require.config({
+            paths:{
+                'jquery': 'jquery.min',
+                'underscore': "underscore.min",
+                'backbone': 'backbone.min'
+            }
+        });
+
+        //上述代码给出了三个模块的文件名，默认路径与所写js文件在同一目录，如果这些模块在其他目录，比如js/lib
+        //目录，则有两种写法。一种是逐一指定路径。
+
+        require.config({
+            paths:{
+                'jquery': 'lib/jquery.min',
+                'underscore': 'lib/underscore.min',
+                'backbone': 'lib/backbone.min'
+            }
+        });
+
+        /*另一种是直接改变基目录baseUrl
+
+         */
+        require.config({
+            baseUrl: 'js/lib',
+            paths: {
+                'jquery': "jquery.min",
+                'underscore': 'underscore.min',
+                'backbone': 'backbone.min'
+            }
+        });
+
+        /*
+        如果在另一台主机，也可以指定它的网址，比如：
+         */
+
+        require.config({
+            paths:{
+                'jquery': 'https://path'
+
+            }
+        });
+
+        /*
+        * require.js 要求每一个模块都是单独的js文件， 这样的话， 如果加载多个模块，就会发出多次
+        * Http请求，影响加载速度，因此，require.js提供了一个优化工具。当模块部署完毕之后，可以用这个工具
+        * 将各个模块合并在一个文件中，减少Http请求次数
+         */
+
+        /* AMD模块的写法
+        require.js 加载的模块采用AMD规范，也就是说，模块必须按照AMD规定来写。
+        具体来说，就是模块必须采用特定的define（）函数来定义，如果一个模块不依赖其他模块，可以直接定义在define（）函数
+        中，假定现在有一个math.js文件，它定义了一个math模块，那么math.js 就可以这样写。
+         */
+
+        //math.js
+
+        define(function(){
+            var add = function (x, y) {
+                return x+y;
+            };
+            return {
+                add: add
+            }
+        });
+
+
+        //加载方法
+        require(['math'], function (math) {
+            alert(math.add(1, 1));
+        });
+
+        //如果这个模块还依赖其他模块，那么define（）函数的第一个参数，必须是一个数组，指明该模块的依赖性
+        define(['myLib'], function (myLib) {
+            function foo(){
+                myLib.doSomething();
+            }
+            return {
+                foo: foo
+            }
+        });
+
+        //当require（函数加载上面这个模块的时候就会先加载myLib.js文件）
+
+        // 加载非规范化的模块
+        /*理论上，require.js 加载的模块，必须按照AMD规范，用define()函数定义模块，但实际上，虽然已经
+        有一部分流行的函数库符合AMD 但更多库并不符合。那么require.js 是否能够加载非规范的模块呢？
+        of course！
+
+        诸如此类的模块在require（）加载之前，要先用require.config（）方法定义他们的一些特性
+        以underscore 和backbone为例， 都没有采用AMD规范，如果要加载的话，必须定义他们的特征
+
+         */
+        require.config({
+            shim:{
+                'underscore':{
+                    exports: '_'
+                },
+
+                'backbone':{
+                    deps: ['underscore', 'jquery'],
+                    exports :'Backbone'
+                }
+            }
+        })
+
+        /*
+        require.config 接受一个配置对象，这个对象除了前面说过的paths属性，还有一个shim属性
+        专门用来配置不兼容的模块，具体来说，每个模块要定义1.exports值，表面这个模块外部调用时的名称
+        2.deps数组，表明该模块的依赖性
+         */
+
+        //此外require.js 还有一些插件。
 
 
     </script>
