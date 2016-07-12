@@ -1,0 +1,39 @@
+#canvas{
+    border: 1px solid black;
+    width: 600px;
+    height: 480px;
+    display: block;
+    margin: 0px;
+}
+
+#option{
+    /*border: 1px solid black;*/
+    width: 600px;
+    height: 100px;
+    display: block;
+    margin: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+canvas{
+    border: 1px solid black;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+}
+
+
+[class^="pjs"] {background: black;}
+
+.pjs-meta {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 16px;
+    font-family: monospace;
+}
