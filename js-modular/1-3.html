@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>多边形绘制</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/drawpolygon.js"></script>
+</head>
+<body>
+<canvas id="canvas" width="600" height="480"></canvas>
+<br/>
+
+<div id="option">
+    <input type="button" value="保存" onclick="save();"/>&nbsp;
+    <input type="button" value="显示" onclick=""/>&nbsp;
+    <input type="button" value="清空" onclick="reset();"/> &nbsp;
+    选择颜色: <select  id="color" onchange="changeColor(this.options[this.selectedIndex].value);">
+    <option value="red" selected = "selected">红色</option>
+    <option value="blue" selected = "selected">蓝色</option>
+    <option value="green" selected = "selected">绿色</option>
+    <option value="black" selected = "selected">黑色</option>
+    <option value="yellow" selected = "selected">黄色</option>
+</select>
+</div>
+</body>
+</html>
+
+
