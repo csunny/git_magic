@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        function getQueryStringArgs() {
+            var qs = (location.search.length >0 ?location.search.substring(1): "")
+            //保存数据对象
+            var items = qs.length?qs.split("&") :[],
+            item = null,
+                    name = null,
+                    value = null,
+                    //for loop
+                    i = 0,
+                    len = items.length;
+            for(i=0; i< len; i++){
+                item = items[i].split("=");
+                name = decodeURIComponent(item[0]);
+                value = decodeURIComponent(item[1]);
+
+                if(name.length){
+                    args[name] = value;
+                }
+            }
+            return args;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
