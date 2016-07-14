@@ -72,47 +72,6 @@ function Point(x, y) {
 
 }
 
-//顶点坐标容器
-vertex = [];
-//reset the application
-
-function reset() {
-    isStarted = false;
-    points = null;
-    if (vertex.length != 0) {
-        vertex.splice(0, vertex.length);
-    }
-}
-
-// alert the point list
-
-function save() {
-    if (points == null) {
-        alert("请点击画图");
-
-    } else {
-        var s = 0;
-        for (var a in points) {
-            //inversing y axis by (canvas.height - points[a].y)
-
-
-            //s += "{"+"x:"+points[a].x + "," +"y:"+(canvas.height - points[a].y) + "},";
-            s = "{" + "x:" + points[a].x + "," + "y:" + (canvas.height - points[a].y) + "}";
-            vertex.push(s)
-        }
-
-         // 去除字符串最后的逗号
-         //str = s.substring(0, s.length-1);
-         //vertex.push(str);
-         //去除字符串的引号
-         console.log(vertex);
-
-         for(var i=0; i< vertex.length; i++){
-         console.log(vertex[i]);
-
-         }
-    }
-}
 // draw polygon
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -152,6 +111,8 @@ function addLoadEvent(func){
         }
     }
 }
+
+
 
 
 
