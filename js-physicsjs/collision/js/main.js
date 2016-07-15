@@ -25,38 +25,34 @@ require([
         var viewWidth = 640,
             viewHeight = 480;
     	var pos = [];
-    	
-    	require([])
+
     	var renderer = Physics.renderer('canvas',{
     		el: 'viewport',
     		autoResize:false,
     		width: viewWidth,
     		height: viewHeight,
-            autoResize: true
+            autoResize: true,
+            colors: "#EEE"
     	});
-
-//        var canvas = document.getElementById("viewport");
-//        var ctx = renderer.init
-//        console.log(ctx);
-
-
-
 
         //test PhysicsJs API
 
         var canvas = document.getElementById("viewport");
         if(renderer.layer('viewport') == null){
             console.log("magic, you win")
-            renderer.addLayer('viewport', canvas, {
+            var shd = renderer.addLayer('viewport', canvas, {
                 width: viewWidth,
                 height: viewHeight,
                 manual: true,
                 scale: 800
             });
         }
-        var ctx = renderer.layer('viewport').ctx
+        var ctx = shd.ctx;
+        console.log(ctx);
         var styles =  {
             'circle':{
+
+
                 strokeStyle: '#ccc',
                 lineWidth: 1,
                 fillStyle: '#BBB',
@@ -69,10 +65,11 @@ require([
         world.add(renderer)
         world.render();
 
+        var shd = renderer.addLayer('shadows');
+        var bodies = [circle];
+
         //test API end
 
-
-    	world.add(renderer);
 		world.on('interact:poke', function( data ){
 		
 		  data.x; // the x coord
@@ -84,7 +81,7 @@ require([
             for(var i=0; i < whichShape; i++){
 
                 // 测试遍历数组中的元素
-                //console.log("x:"+pos[i].px+" "+"y:"+pos[i].py);
+                console.log("x:"+pos[i].px+" "+"y:"+pos[i].py);
         }
 
             /*点击显示当前鼠标位置
@@ -204,9 +201,10 @@ require([
             }else{
                 alert("多边形边数不能大于8")
             }
+
 		});  // world.on get the value of x and y pos.
 
-
+        world.add(renderer);
     	world.render();	
     	Physics.util.ticker.on(function(time, dt){
     		world.step(time);

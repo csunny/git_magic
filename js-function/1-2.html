@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        var tensquared = (function (x) {
+          return x*x;
+        }(10));
+        console.log(tensquared);
+
+        //表达式分解
+        (function(x){
+            return x*x;
+        }(4));
+        //函数命名  函数名的第一个字符为小写，这是一种编程约定。当函数名包含
+        //多个单词时，一种约定是将单词以下划线分隔，就像like_this() 还有一种写法为
+        //likeThis()  有一些函数是用做内部函数或私有函数，这种函数名通常以一条下划线为前缀
+
+        //嵌套函数
+        function  hypotenuse(a, b) {
+            function square(x) {
+                return x*x;
+            }
+            return Math.sqrt(square(a)+square(b))
+        }
+
+        //构造函数调用 如果函数或者方法在调用之前带有关键字new，就构成函数调用
+
+        function f(x) {
+            console.log(x);
+            console.log(arguments);
+        }
+        f(3);
+
+        // 闭包
+        var scopr = "global scope";
+        function checkscope() {
+            var scope = "local scope";
+            function f(){return scope;}
+            return f();
+        }
+        console.log(checkscope());
+        //
+        var scopr = "global scope";
+        function checkScope() {
+            var scopr = "local scope";
+            function f(){return scopr;}
+            return f;
+        }
+
+        console.log(checkScope()());
+
+        //在同一个外部函数中，多个嵌套函数可以访问它，这多个嵌套函数都有一个作用域链
+
+        function counter() {
+            var n=0;
+            return{
+                count: function () {
+                    return n++;
+                },
+                reset: function(){
+                    n = 0
+                }
+            }
+        }
+
+        var c = counter(), d = counter(); // 创建两个计数器
+        c.count();    //  0
+        d.count();    //  0
+        c.reset();    // reset 和count（）方法共享状态
+        c.count();
+
+        // 函数属性，方法以及构造函数
+        /*length 属性 在函数体中，arguments.length 表示传入函数的实参个数
+        *函数本身的length是只读属性  prototype属性 这个属性是指向一个对象的引用，这个对象称为
+        * 原型对象（prototype object） 每一个函数都包含不同的原型对象。 当将函数用做构造函数
+        * 的时候，新创建的对象会从原型对象上继承属性。*/
+
+        //call()方法和apply()方法
+        function trace(o, m){
+            var original = o[m];             //在闭包中保存原始的方法
+            o[m] = function () {
+                console.log(new Date(), "Entering:", m);      //输出日志消息
+                var result = original.apply(this, arguments);   //调用原始函数
+                console.log(new Date(), "Exiting:", m);
+                return result;
+            }
+        }
+
+
+
+        // toString()方法
+        // function 构造函数  不管是通过函数定义还是函数直接量表达式，函数的定义都要使用function
+        //关键字但，但函数还可以通过Function()构造函数定义。例如
+        var f = new Function("x", "y", "return x*y;");
+        // var f = function(x, y){return x*y}
+        console.log(f(2, 3));
+        // 不可调用的对象
+
+        //在js中用函数式编程
+
+        var data = [1,1,3,5,5];  //待处理数组
+        var total = 0;
+        for(var i=0; i < data.length; i++){
+            var deviation = data[i] -Math.mean;
+            total += deviation * deviation;
+        }
+        var stddev = Math.sqrt(total/(data.length -1));  //标准差的值为2
+    </script>
+</head>
+<body>
+
+</body>
+</html>
