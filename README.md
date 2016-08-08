@@ -1,4 +1,4 @@
 ###git_magic###
-This is my practise about javascript. there are some userful scripts. 
+²Î¿¼ÁÎÑ©·åpython½Ì³Ì
 
-Those scripts come from ã€Šjs dom ç¼–ç¨‹è‰ºæœ¯ã€‹ and the js forum of csdn. 
+
