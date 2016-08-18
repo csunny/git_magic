@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c484760-3c0f-4a01-a770-05a95f234ea0" name="Default" comment="" />
-    <ignored path="git_magic.iws" />
+    <list default="true" id="e4381b18-a001-4f6b-8bac-a2f590ec5d2e" name="Default" comment="" />
+    <ignored path="flask_project.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,22 +14,18 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/git_magic$deco2.coverage" NAME="deco2 Coverage Results" MODIFIED="1470656925728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorator" />
-    <SUITE FILE_PATH="coverage/git_magic$wsgiinter.coverage" NAME="wsgiinter Coverage Results" MODIFIED="1470649999520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdevelop" />
-    <SUITE FILE_PATH="coverage/git_magic$server.coverage" NAME="server Coverage Results" MODIFIED="1470650118716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdevelop" />
-    <SUITE FILE_PATH="coverage/git_magic$tcp_program.coverage" NAME="tcp_program Coverage Results" MODIFIED="1470648291981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socketprogram" />
-    <SUITE FILE_PATH="coverage/git_magic$celery_blog.coverage" NAME="celery_blog Coverage Results" MODIFIED="1470115523100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cele/celery_test" />
-    <SUITE FILE_PATH="coverage/git_magic$deco.coverage" NAME="deco Coverage Results" MODIFIED="1470656718619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decorator" />
+    <SUITE FILE_PATH="coverage/flask_project$flask_project.coverage" NAME="flask_project Coverage Results" MODIFIED="1470744821891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="git_magic" />
+    <favorites_list name="flask_project" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/superlist/superlist/lists/tests.py">
@@ -65,11 +61,23 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+      <file leaf-file-name="flask_project.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_project.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:.idea/workspace.xml
+            <state vertical-scroll-proportion="0.22115384">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.63309354">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+>>>>>>> python:flask_project/.idea/workspace.xml
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
     </leaf>
   </component>
@@ -80,12 +88,15 @@
 =======
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webdevelop/server.py">
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+>>>>>>> python:flask_project/.idea/workspace.xml
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#72#117#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,18 +106,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
+        <option value="Flask Main" />
+        <option value="Html5" />
       </list>
     </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="true" />
-    </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD:.idea/workspace.xml
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/webdevelop/server.py" />
         <option value="$PROJECT_DIR$/webdevelop/wsgiinter.py" />
@@ -114,6 +122,10 @@
         <option value="$PROJECT_DIR$/decorator/deco2.py" />
         <option value="$PROJECT_DIR$/socketprogram/tcp_program.py" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/flask_project.py" />
+>>>>>>> python:flask_project/.idea/workspace.xml
       </list>
     </option>
   </component>
@@ -125,6 +137,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
     <option name="x" value="96" />
     <option name="y" value="1" />
@@ -136,6 +149,19 @@
     <option name="width" value="1305" />
     <option name="height" value="968" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+<<<<<<< HEAD:.idea/workspace.xml
+    <option name="x" value="387" />
+    <option name="y" value="203" />
+    <option name="width" value="937" />
+    <option name="height" value="714" />
+=======
+    <option name="x" value="82" />
+    <option name="y" value="93" />
+    <option name="width" value="1037" />
+    <option name="height" value="554" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
+>>>>>>> python:flask_project/.idea/workspace.xml
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -169,37 +195,45 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git_magic" />
+              <option name="myItemId" value="flask_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git_magic" />
+              <option name="myItemId" value="flask_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git_magic" />
+              <option name="myItemId" value="flask_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD:.idea/workspace.xml
+>>>>>>> python:flask_project/.idea/workspace.xml
 =======
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git_magic" />
+              <option name="myItemId" value="flask_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="git_magic" />
+              <option name="myItemId" value="flask_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="decorator" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD:.idea/workspace.xml
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
+>>>>>>> python:flask_project/.idea/workspace.xml
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -207,6 +241,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD:.idea/workspace.xml
     <property name="last_opened_file_path" value="D:/git_farm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
 <<<<<<< HEAD
@@ -219,15 +254,27 @@
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
 =======
     <property name="last_opened_file_path" value="D:/git_farm" />
+=======
+<<<<<<< HEAD:.idea/workspace.xml
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> python:flask_project/.idea/workspace.xml
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.lastSelected" value="preferences.sourceCode.JavaScript" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+=======
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
   </component>
+<<<<<<< HEAD:.idea/workspace.xml
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\git_magic\website\css" />
@@ -377,6 +424,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+=======
+  <component name="RunManager" selected="Python.flask_project">
+>>>>>>> python:flask_project/.idea/workspace.xml
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -389,6 +439,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD:.idea/workspace.xml
       <module name="git_magic" />
 <<<<<<< HEAD
       <option name="launchJavascriptDebuger" value="false" />
@@ -401,6 +452,9 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
 =======
+=======
+      <module name="flask_project" />
+>>>>>>> python:flask_project/.idea/workspace.xml
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -559,7 +613,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -573,7 +627,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
@@ -590,6 +644,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD:.idea/workspace.xml
       <module name="git_magic" />
 <<<<<<< HEAD
       <option name="launchJavascriptDebuger" value="false" />
@@ -607,6 +662,9 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.git_magic" />
     </list>
 =======
+=======
+      <module name="flask_project" />
+>>>>>>> python:flask_project/.idea/workspace.xml
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -614,6 +672,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -625,7 +689,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -645,7 +709,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -665,7 +729,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -687,7 +751,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -710,7 +774,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="git_magic" />
+      <module name="flask_project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
@@ -726,13 +790,28 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tcp_program" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wsgiinter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.server" />
-      <item index="3" class="java.lang.String" itemvalue="Python.deco" />
-      <item index="4" class="java.lang.String" itemvalue="Python.deco2" />
+    <configuration default="false" name="flask_project" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="flask_project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.flask_project" />
     </list>
+<<<<<<< HEAD:.idea/workspace.xml
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.deco2" />
@@ -743,6 +822,8 @@
       </list>
     </recent_temporary>
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+>>>>>>> python:flask_project/.idea/workspace.xml
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -750,6 +831,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
       <changelist id="3c484760-3c0f-4a01-a770-05a95f234ea0" name="Default" comment="" />
       <created>1469076806547</created>
@@ -761,10 +843,17 @@
       <option name="number" value="Default" />
       <updated>1467983810878</updated>
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+      <changelist id="e4381b18-a001-4f6b-8bac-a2f590ec5d2e" name="Default" comment="" />
+      <created>1470744698112</created>
+      <option name="number" value="Default" />
+      <updated>1470744698112</updated>
+>>>>>>> python:flask_project/.idea/workspace.xml
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
     <frame x="96" y="1" width="1408" height="1053" extended-state="0" />
     <editor active="false" />
@@ -775,41 +864,82 @@
 =======
     <frame x="604" y="131" width="1305" height="968" extended-state="0" />
     <editor active="true" />
+=======
+<<<<<<< HEAD:.idea/workspace.xml
+    <frame x="387" y="203" width="937" height="714" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17429718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="82" y="93" width="1037" height="554" extended-state="0" />
+    <editor active="false" />
+>>>>>>> python:flask_project/.idea/workspace.xml
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20470127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29404467" sideWeight="0.50246304" order="7" side_tool="true" content_ui="tabs" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> python:flask_project/.idea/workspace.xml
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
 =======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29776675" sideWeight="0.49753696" order="2" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> python:flask_project/.idea/workspace.xml
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42372882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38531074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+>>>>>>> python:flask_project/.idea/workspace.xml
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD:.idea/workspace.xml
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25771326" sideWeight="0.49753696" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38531074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27554178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> python:flask_project/.idea/workspace.xml
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD:.idea/workspace.xml
 =======
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
+>>>>>>> python:flask_project/.idea/workspace.xml
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -824,6 +954,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD:.idea/workspace.xml
 <<<<<<< HEAD
     <breakpoint-manager />
     <watches-manager />
@@ -840,31 +971,46 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
+=======
+    <breakpoint-manager />
+>>>>>>> python:flask_project/.idea/workspace.xml
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Anaconda2/Lib/site-packages/django/test/testcases.py">
+<<<<<<< HEAD:.idea/workspace.xml
+    <entry file="file://$PROJECT_DIR$/awesome-python-webapp/transwarp/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD:.idea/workspace.xml
           <caret line="909" column="6" selection-start-line="909" selection-start-column="6" selection-end-line="909" selection-end-column="6" />
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> python:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda2/Lib/site-packages/django/test/testcases.py">
+    <entry file="file://$PROJECT_DIR$/awesome-python-webapp/transwarp/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD:.idea/workspace.xml
           <caret line="909" column="6" selection-start-line="909" selection-start-column="6" selection-end-line="909" selection-end-column="6" />
 <<<<<<< HEAD
           <folding />
 =======
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
+=======
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+>>>>>>> python:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda2/Lib/site-packages/django/test/testcases.py">
+    <entry file="file://$PROJECT_DIR$/webdevelop/wsgiinter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD:.idea/workspace.xml
           <caret line="909" column="6" selection-start-line="909" selection-start-column="6" selection-end-line="909" selection-end-column="6" />
 <<<<<<< HEAD
 =======
@@ -872,17 +1018,24 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/884504192/__builtin__.py">
+=======
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/flask_project.py">
+>>>>>>> python:flask_project/.idea/workspace.xml
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44402984">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda2/Lib/site-packages/requests/models.py">
+    <entry file="file://$USER_HOME$/.PyCharm40/system/remote_sources/-2066847291/-289277395/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0750606">
-          <caret line="659" column="0" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
+<<<<<<< HEAD:.idea/workspace.xml
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -890,6 +1043,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14901961">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+<<<<<<< HEAD:.idea/workspace.xml
 >>>>>>> 6c3f3e766edd2e0fbbbf7fb87a5ca2a70fa8550c
           <folding />
         </state>
@@ -908,59 +1062,63 @@
         <state vertical-scroll-proportion="0.8125">
           <caret line="735" column="49" selection-start-line="735" selection-start-column="49" selection-end-line="735" selection-end-column="49" />
           <folding />
+=======
+>>>>>>> python:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Anaconda2/Lib/multiprocessing/connection.py">
+    <entry file="file://$PROJECT_DIR$/geventpro/geventscri.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3375">
-          <caret line="455" column="8" selection-start-line="455" selection-start-column="8" selection-end-line="455" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.6017316">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.33225283">
+          <caret line="1070" column="8" selection-start-line="1070" selection-start-column="8" selection-end-line="1070" selection-end-column="8" />
           <folding />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdevelop/server.py">
+    <entry file="file://$USER_HOME$/.PyCharm40/system/remote_sources/-2066847291/-289277395/flask/templating.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:.idea/workspace.xml
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+=======
+        <state vertical-scroll-proportion="2.793765">
+          <caret line="120" column="54" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+          <folding />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD:.idea/workspace.xml
+        <state vertical-scroll-proportion="0.5670996">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#72#117#0" expanded="true" />
-          </folding>
+=======
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webdevelop/wsgiinter.py">
+    <entry file="file://$PROJECT_DIR$/flask_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+<<<<<<< HEAD:.idea/workspace.xml
+        <state vertical-scroll-proportion="0.22115384">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.63309354">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+>>>>>>> 9bfb5e60d516f64986e3933d545c663b77395bd2:flask_project/.idea/workspace.xml
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/deco2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5671642">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/deco.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9421642">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socketprogram/tcp_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6455224">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD:.idea/workspace.xml
     <entry file="file://C:/Anaconda2/Lib/site-packages/gevent/fileobject.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21268657">
@@ -972,5 +1130,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> python:flask_project/.idea/workspace.xml
   </component>
 </project>
