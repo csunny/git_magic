@@ -24,6 +24,6 @@ class PoemListView(APIView):
             return Response(serialzier.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['GET', 'PUT', 'DELETE'])
-def poem_detail(request, id):
-    pass
+# @api_view(['GET', 'PUT', 'DELETE'])
+# def poem_detail(request, id):
+#     pass
