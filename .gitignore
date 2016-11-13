@@ -2,3 +2,6 @@
 *idea/ 
 *.idea/ 
 flask_project 
+*.xml
+*.pyc
+.idea/*
